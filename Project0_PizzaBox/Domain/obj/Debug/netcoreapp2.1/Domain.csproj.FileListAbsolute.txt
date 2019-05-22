@@ -1,0 +1,9 @@
+C:\Users\Nathan\Woodruff_Nathan_Project0\Project0_PizzaBox\Domain\bin\Debug\netcoreapp2.1\Domain.deps.json
+C:\Users\Nathan\Woodruff_Nathan_Project0\Project0_PizzaBox\Domain\bin\Debug\netcoreapp2.1\Domain.dll
+C:\Users\Nathan\Woodruff_Nathan_Project0\Project0_PizzaBox\Domain\bin\Debug\netcoreapp2.1\Domain.pdb
+C:\Users\Nathan\Woodruff_Nathan_Project0\Project0_PizzaBox\Domain\obj\Debug\netcoreapp2.1\Domain.csprojAssemblyReference.cache
+C:\Users\Nathan\Woodruff_Nathan_Project0\Project0_PizzaBox\Domain\obj\Debug\netcoreapp2.1\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Nathan\Woodruff_Nathan_Project0\Project0_PizzaBox\Domain\obj\Debug\netcoreapp2.1\Domain.AssemblyInfoInputs.cache
+C:\Users\Nathan\Woodruff_Nathan_Project0\Project0_PizzaBox\Domain\obj\Debug\netcoreapp2.1\Domain.AssemblyInfo.cs
+C:\Users\Nathan\Woodruff_Nathan_Project0\Project0_PizzaBox\Domain\obj\Debug\netcoreapp2.1\Domain.dll
+C:\Users\Nathan\Woodruff_Nathan_Project0\Project0_PizzaBox\Domain\obj\Debug\netcoreapp2.1\Domain.pdb

@@ -1,0 +1,14 @@
+C:\Users\Nathan\Woodruff_Nathan_Project0\Project0_PizzaBox\Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Nathan\Woodruff_Nathan_Project0\Project0_PizzaBox\Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Nathan\Woodruff_Nathan_Project0\Project0_PizzaBox\Test\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Nathan\Woodruff_Nathan_Project0\Project0_PizzaBox\Test\bin\Debug\netcoreapp2.1\Test.deps.json
+C:\Users\Nathan\Woodruff_Nathan_Project0\Project0_PizzaBox\Test\bin\Debug\netcoreapp2.1\Test.runtimeconfig.json
+C:\Users\Nathan\Woodruff_Nathan_Project0\Project0_PizzaBox\Test\bin\Debug\netcoreapp2.1\Test.runtimeconfig.dev.json
+C:\Users\Nathan\Woodruff_Nathan_Project0\Project0_PizzaBox\Test\bin\Debug\netcoreapp2.1\Test.dll
+C:\Users\Nathan\Woodruff_Nathan_Project0\Project0_PizzaBox\Test\bin\Debug\netcoreapp2.1\Test.pdb
+C:\Users\Nathan\Woodruff_Nathan_Project0\Project0_PizzaBox\Test\obj\Debug\netcoreapp2.1\Test.csprojAssemblyReference.cache
+C:\Users\Nathan\Woodruff_Nathan_Project0\Project0_PizzaBox\Test\obj\Debug\netcoreapp2.1\Test.csproj.CoreCompileInputs.cache
+C:\Users\Nathan\Woodruff_Nathan_Project0\Project0_PizzaBox\Test\obj\Debug\netcoreapp2.1\Test.AssemblyInfoInputs.cache
+C:\Users\Nathan\Woodruff_Nathan_Project0\Project0_PizzaBox\Test\obj\Debug\netcoreapp2.1\Test.AssemblyInfo.cs
+C:\Users\Nathan\Woodruff_Nathan_Project0\Project0_PizzaBox\Test\obj\Debug\netcoreapp2.1\Test.dll
+C:\Users\Nathan\Woodruff_Nathan_Project0\Project0_PizzaBox\Test\obj\Debug\netcoreapp2.1\Test.pdb
