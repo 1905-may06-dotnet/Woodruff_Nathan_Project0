@@ -266,30 +266,7 @@ namespace Client
 
         }
 
-        //Contains Domain logic for internal transactions
-        public class Business
-        {
-            //Enables internal business transactions such as inventory tracking as a function of orders placed.
-
-            #region Business Properties
-            public string ingredient;
-            public Dictionary<string, int> ingredients = new Dictionary<string, int>();
-            public List<object> orders = new List<object>();
-            #endregion
-
-            void SetInventory(string ingredient, int quantity)
-            {
-                ingredients.Add(ingredient, quantity);
-            }
-            void GetInventory(string ingredient)
-            {
-                int val = ingredients[ingredient];
-                Console.WriteLine(val);
-            }
-
-        }
-
-        //Contains Domain logic for User handling and authentication
+                //Contains Domain logic for User handling and authentication
         public class User
         {
             #region User Properties
@@ -301,6 +278,7 @@ namespace Client
 
             PizzaContext db = new PizzaContext();
 
+            //Authenticates the User
             public void GetCredentials()
             {
                 Console.WriteLine("Enter a username: ");
@@ -311,20 +289,25 @@ namespace Client
                 var returningUser = db.Users
                 .Where<Users>(u => u.Username == this.username).FirstOrDefault();
 
+                //If the user is new, welcome them and return to Main
                 if (returningUser == null)
                 {
                     Console.WriteLine("");
                     Console.WriteLine("Welcome to PizzaBox application!");
                     Console.WriteLine("");
                 }
+                //If the user is returning, check the timeout condition
                 else
                 {
                     this.CheckTime();
                 }
 
             }
+            //Checks waiting period
             public void CheckTime()
             {
+                //Locate the user and their most recent order. Compare timestamp to current time
+
                 var returningUser = db.Users
                     .Where<Users>(u => u.Username == this.username).FirstOrDefault();
 
@@ -335,7 +318,8 @@ namespace Client
 
                 var referenceTime = timeQuery.OrderTime.AddHours(2.0);
 
-                var timeLimit = DateTime.Compare(DateTime.Now, referenceTime); //if timeLimit >0 go
+                //If timeLimit < 0 the exception is thrown  
+                var timeLimit = DateTime.Compare(DateTime.Now, referenceTime); 
 
                 if (returningUser != null
                     && timeLimit < 0)
@@ -345,8 +329,10 @@ namespace Client
                     Console.WriteLine("");
                     Console.WriteLine("Press ESC to exit.");
                     do
-                    {
-                    } while (Console.ReadKey(true).Key != ConsoleKey.Escape);
+                    { 
+                        //Wait for the user to quit
+                    }
+                    while (Console.ReadKey(true).Key != ConsoleKey.Escape);
 
                     this.GetCredentials();
                 }
