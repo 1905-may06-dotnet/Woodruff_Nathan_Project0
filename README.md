@@ -3,7 +3,7 @@
 Welcome to my PizzaBox Application!
 
 ### About
-This is a back-end application which gathers domain specific information from the client and posts records to a database through a cloud instance. Thus, a pizza is ordered.
+This is a back-end application which gathers client specific information from the user and posts records to a database through a cloud instance. Thus, a pizza is ordered.
 
 ### Navigation
 1. [Main](https://github.com/1905-may06-dotnet/Woodruff_Nathan_Project0/blob/master/Project0_PizzaBox/Client/Program.cs): The program executable which conducts the business logic and database operations.
